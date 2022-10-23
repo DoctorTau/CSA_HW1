@@ -1,0 +1,6 @@
+gcc -masm=intel \
+    -fno-asynchronous-unwind-tables \
+    -fno-jump-tables \
+    -fno-stack-protector \
+    -fno-exceptions \
+    ./code.c -S -o ./code.s
