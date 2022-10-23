@@ -84,7 +84,7 @@ GenerateNewArray(int size);
 ### Изменения в genArr.s
 ` DWORD PTR -8[rbp] -> r14d`
 
-` DWORD PTR -4[rbp] -> r13d`
+` DWORD PTR -4[rbp] -> r15d`
 
 Данное изменение уменьшит количество запросов на стек, что уменьшит время работы программы.
 
